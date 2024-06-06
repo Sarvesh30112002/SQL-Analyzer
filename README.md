@@ -38,3 +38,28 @@ The SQL Analyzer project is a Java-based application designed to analyze SQL que
 
 <hr>
 
+## Classes and Methods
+SQLTokenAnalyzer.java
+Main Class:
+public static void main(String[] args): Reads queries from input.sql and analyzes them.
+Helper Methods:
+public static void analyzeQuery(String query): Analyzes the given SQL query and prints token counts and complexity analysis.
+public static boolean isKeyword(String token): Checks if a token is a SQL keyword.
+public static boolean isIdentifier(String token): Checks if a token is an identifier.
+public static boolean isLiteral(String token): Checks if a token is a literal.
+public static boolean isOperator(String token): Checks if a token is an operator.
+public static boolean isPunctuation(String token): Checks if a token is punctuation.
+public static int countOccurrences(String text, String keyword): Counts occurrences of a keyword in the text.
+JDBC.java
+Main Class:
+public static void main(String[] args): Launches the GUI.
+Helper Methods:
+private boolean validateSQLQuery(String sqlQuery): Validates the SQL query and stores results in the database.
+private String optimizeSQLQuery(String sqlQuery): Optimizes the SQL query (simple example).
+private void analyzeTokens(String sqlQuery): Analyzes tokens in the SQL query and displays them in the GUI.
+private String executeQuery(String sqlQuery): Executes the SQL query and returns the result as a string.
+private static int countJoins(String sqlQuery): Counts JOIN clauses in the query.
+private static int countSubqueries(String sqlQuery): Counts SELECT clauses in the query.
+private static int countAggregateFunctions(String sqlQuery): Counts aggregate functions in the query.
+private static int countConditions(String sqlQuery): Counts WHERE clauses in the query.
+private void displayQueryResultTable(String queryResult): Displays query result in a table format.
