@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+E:\Btech VIT\6th Semester\SP\CP\SQL_PARSER\.metadata\.plugins\org.eclipse.jdt.core
