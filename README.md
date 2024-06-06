@@ -63,3 +63,14 @@ private static int countSubqueries(String sqlQuery): Counts SELECT clauses in th
 private static int countAggregateFunctions(String sqlQuery): Counts aggregate functions in the query.
 private static int countConditions(String sqlQuery): Counts WHERE clauses in the query.
 private void displayQueryResultTable(String queryResult): Displays query result in a table format.
+
+<hr>
+
+## Demo
+<p align="center">
+  <img src="Demo/Screenshot (781).png" alt="image"/>
+</p>
+
+<p align="center">
+  <img src="Demo/Screenshot 2024-06-06 114003.png" alt="image"/>
+</p>
