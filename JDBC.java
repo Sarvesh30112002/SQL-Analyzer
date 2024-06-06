@@ -189,8 +189,8 @@ public class JDBC extends JFrame {
     // Helper method to validate SQL query and store the results
 private boolean validateSQLQuery(String sqlQuery) {
     String jdbcUrl = "jdbc:mysql://localhost:3306/db2"; 
-    String jdbcUser = "root"; 
-    String jdbcPassword = "Sarvesh_3011"; 
+    String jdbcUser = ""; 
+    String jdbcPassword = ""; 
 
     boolean isComplex = false; // Define the variable isComplex
 
@@ -226,8 +226,8 @@ private boolean validateSQLQuery(String sqlQuery) {
     // Helper method to execute the SQL query and return the result as a string
     private String executeQuery(String sqlQuery) {
         String jdbcUrl = "jdbc:mysql://localhost:3306/db2"; 
-        String jdbcUser = "root"; 
-        String jdbcPassword = "Sarvesh_3011"; 
+        String jdbcUser = ""; 
+        String jdbcPassword = ""; 
 
         try (Connection connection = DriverManager.getConnection(jdbcUrl, jdbcUser, jdbcPassword)) {
             try (Statement statement = connection.createStatement()) {
