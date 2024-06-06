@@ -38,8 +38,3 @@ The SQL Analyzer project is a Java-based application designed to analyze SQL que
 
 <hr>
 
-## Installation
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/Sarvesh30112002/SQL-Analyzer.git
-   cd sql-analyzer
