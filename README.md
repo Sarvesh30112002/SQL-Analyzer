@@ -4,7 +4,7 @@ SQL Analyzer is a software that reads SQL queries, performs token analysis, and 
 
 <hr>
 
-### Overview
+### Overview 
 The SQL Analyzer project is a Java-based application designed to analyze SQL queries, validate them, optimize their structure, and display various statistics about the query complexity. It includes both a command-line interface and a graphical user interface (GUI) built with Java Swing. This tool is useful for database administrators, developers, and anyone interested in understanding and optimizing their SQL queries.
 
 <hr>
